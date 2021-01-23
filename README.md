@@ -2,7 +2,7 @@
 Programming Fundamentals Project 
 PROJECT REPORT
 
-Acknowledgment
+#Acknowledgment
 
 We might want to communicate a profound feeling of thanks and
 appreciation to our undertaking guides Sir Zain for managing us
@@ -11,10 +11,13 @@ keen interest in our work. His productive guidance and consistent
 inspiration have been liable for the effective consummation of this task.
 Our genuine gratitude goes to the lab teacher for his coordination in
 broadening each conceivable help for the fulfillment of this task.
-INTRODUCTION
+
+
+#INTRODUCTION
 This projects aim is to create a simple but effective voting system which
 will have two main users, an admin and multiple voters. The role and the
 functions available to the users are as follow;
+
  ADMIN CONSOLE
 - In this voting system project we have an admin console which
 will be under control of the authority, admin can nominate
@@ -31,6 +34,7 @@ votes will be involved. There is a chance of rigging in elections
 when human handling is involved. We can have a clean and
 transparent election by using this system. A user name and
 password is required to access the admin console
+
  VOTERS CONSOLE
 - After registration, voters can caste their vote by selecting any
 suitable candidate in the list by pressing the number against
@@ -44,10 +48,10 @@ this system.
 2-Tools and Tech used
 1-visual studio for programming and debugging
 2-libraries
- Stdio
- stdlib
- math
- string
+3- Stdio
+4- stdlib
+5- math
+6- string
 
 3-Programming concept used
  functions
@@ -62,7 +66,7 @@ this system.
  filing(.txt)
 
 
-5-Future Work
+##5-Future Work
 
 For future Improvements we would like to add two different consoles for
 the voters and admin to make it look less cultured. Along with that we
@@ -71,4 +75,4 @@ database with all the unique ID number of the voters to be linked with
 the code by a .txt file which will allow for the identification of the voter to
 be checked and logged.
 
-THANK YOU!!
+#THANK YOU!!
