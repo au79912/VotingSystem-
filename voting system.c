@@ -123,7 +123,7 @@ void changecount(){
 void clearv()
 {
     FILE *fptr;
-    fptr=fopen("Voting.txt", "a+");
+    fptr=fopen("E:\\Voting.txt", "a+");
     int choice;
     int choice2;
     printf("Which canidates votes do you want to clear ? ");
@@ -136,7 +136,7 @@ void clearv()
         {
             votesCount1=0;
             printf("vote for %s have been cleared ", CANDIDATE1);
-            fprintf(fptr,"\n\t\tvotes for &s have been cleared\t\t\n",CANDIDATE1);
+            fprintf(fptr,"\n\t\tvotes for %s have been cleared\t\t\n",CANDIDATE1);
         }
         else if (choice2==0)
         {
@@ -151,7 +151,7 @@ void clearv()
         {
             votesCount2=0;
             printf("vote for %s have been cleared ", CANDIDATE2);
-            fprintf(fptr,"\n\t\tvotes for &s have been cleared\t\t\n",CANDIDATE2);
+            fprintf(fptr,"\n\t\tvotes for %s have been cleared\t\t\n",CANDIDATE2);
         }
         else if (choice2==0)
         {
@@ -166,7 +166,7 @@ void clearv()
         {
             votesCount3=0;
             printf("vote for %s have been cleared ", CANDIDATE3);
-            fprintf(fptr,"\n\t\tvotes for &s have been cleared\t\t\n",CANDIDATE3);
+            fprintf(fptr,"\n\t\tvotes for %s have been cleared\t\t\n",CANDIDATE3);
         }
         else if (choice2==0)
         {
@@ -181,7 +181,7 @@ void clearv()
         {
             votesCount4=0;
             printf("vote for %s have been cleared ", CANDIDATE4);
-            fprintf(fptr,"\n\t\tvotes for &s have been cleared\t\t\n",CANDIDATE4);
+            fprintf(fptr,"\n\t\tvotes for %s have been cleared\t\t\n",CANDIDATE4);
         }
         else if(choice2==0)
         {
@@ -316,8 +316,9 @@ void userandpass ()
 
     } while (i>0);
     abort();
-
 }
+
+
 int main()
 {
 int i;
@@ -325,7 +326,7 @@ int choice2;
 int choice1;
 int choice3;
 jump:
-printf("Welocme to the election portal \nare you : \n1)ADMIN\n2)VOTER\nEnter your choice : ");
+printf("\n\n\t\tWelocme to the election portal\t\t\n\n\n1)ADMIN\n\n2)VOTER\n\nEnter your choice : ");
 scanf("%d",&choice1);
 
 if (choice1 == 1) {
