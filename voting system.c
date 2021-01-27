@@ -73,7 +73,7 @@ void changecount(){
             {
                 votesCount1 = votesCount1 + chang;
             }
-            else if (chang <= -1) // try to do something cool and this is what you end up with, fan-fucking-tastic
+            else if (chang <= -1)
             {
                 votesCount1 = votesCount1 - chang;
             }
